@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #212121;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    width: 90%;
+    height: auto;
+    max-width: 470px;
+    border-radius: 10px;
+    margin: auto;
+    background-color: #9ca1a4;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 5px rgb(111, 111, 111);
+}
+
+/* ------------searchBox------------------ */
+
+.searchBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.searchBox input {
+    border: none;
+    outline: none;
+    width: 70%;
+    font-size: 30px;
+    padding: 5px 15px;
+    border-radius: 100px;
+    box-shadow: 1px 1px 5px gray;
+}
+
+.searchBox .searchlogo {
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    box-shadow: 1px 1px 5px gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchBox .searchlogo img {
+    width: 60%;
+    cursor: pointer;
+}
+
+.searchBox .searchlogo:active {
+    scale: 0.8;
+}
+
+/* ---------------------------------- */
+
+/* --------------wetherdetails------------------ */
+
+.wetherdetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: none;
+}
+
+.wetherbox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wetherbox img {
+    width: 40%;
+}
+
+.temp {
+    font-size: 60px;
+}
+
+.cityname {
+    font-size: 40px;
+}
+
+/* -------------------------------------------- */
+
+.humidity-windSpeed {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 20px 0px;
+}
+
+.humiditybox,
+.Windbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.Windtextbox,
+.humiditytextbox {
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 15px;
+
+}
+
+.humiditybox img,
+.Windbox img {
+    width: 25%;
+}
+
+
+/* -------------anotherdetails---------------- */
+
+.anotherdetails {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.anotherdetails p {
+    font-size: 15px;
+    text-shadow: 1px 1px 5px black;
+}
+
+.feel {
+    font-weight: bold;
+}
+
+.errorbox {
+    display: none;
+}

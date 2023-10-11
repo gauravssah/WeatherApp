@@ -163,3 +163,42 @@ body {
 .errorbox {
     display: none;
 }
+
+
+/* ---------------------------------- */
+
+/* ##################### 320px to 480px ####################### */
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .Windtextbox,
+    .humiditytextbox {
+        font-size: 13px;
+        font-weight: 700;
+        margin-left: 15px;
+    }
+
+    .humiditybox img,
+    .Windbox img {
+        width: 18%;
+    }
+
+    .humiditybox,
+    .Windbox {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: relative;
+        right: -23px;
+    }
+
+    .anotherdetails {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-bottom: 20px;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
